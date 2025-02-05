@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   const [message, setMessage] = useState('');
   useEffect(() => {
-    fetch('/api/AAL_DB')
+    fetch('/api/AAL_BD')
     .then((res) => res.json())
     .then((data) => setMessage(data.message));
   }, []);
