@@ -11,7 +11,7 @@ class AAL_Controller extends AbstractController
  {
  $this->connection = $connection;
  }
- #[Route('/api/db', name: 'get_db')]
+ #[Route('/api/AAL_DB', name: 'get_db')]
  public function index(): JsonResponse
  {
  // Consulta para recuperar el primer mensaje de la tabla "messages"
