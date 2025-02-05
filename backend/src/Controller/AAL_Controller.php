@@ -15,7 +15,7 @@ class AAL_Controller extends AbstractController
  public function index(): JsonResponse
  {
  // Consulta para recuperar el primer mensaje de la tabla "messages"
- $sql = 'SELECT faseAAL FROM secretosAAL LIMIT 1';
+ $sql = 'SELECT fraseAAL FROM secretosAAL LIMIT 1';
  $result = $this->connection->fetchOne($sql);
  // Si no hay mensaje en la BD, devolver un mensaje de error
  if (!$result) {

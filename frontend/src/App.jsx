@@ -11,7 +11,7 @@ function App() {
     <div>
       <h1>Frontend en React de Adrian Ariza Linares</h1>
       <p>Esta aplicación se conecta al backend de Symfony pidiéndole una respuesta</p>
-      <p>respuesta del Backend: Proyecto Completo AAL</p>
+      <p>respuesta del Backend: { message|| 'Proyecto Completo AAL'}</p>
     </div>
   );
 }
